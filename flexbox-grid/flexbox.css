@@ -1,0 +1,33 @@
+*{
+    font-size: 20px;
+    
+
+}
+
+.padre{ background-color: rgb(93, 221, 238);
+height: 800px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-wrap: wrap;
+padding: 20px;
+
+
+}
+.elemento3{
+    align-self:center ;
+    background-color: aqua !important;
+
+}
+
+
+.hijos{
+    background-color: rgb(248, 55, 135);
+border: 2px solid black;
+width: 200px;
+height: 200px;
+margin: 20px;
+
+}
